@@ -6,7 +6,7 @@ end
 def monopoly_with_second_tier
   {:railroads => {
     :pieces => 4,
-    }
+    }}
 end
 
 def monopoly_with_third_tier
@@ -23,7 +23,7 @@ def monopoly_with_third_tier
     :b_and_o_railroad => {},
     :shortline_railroad => {}
     
-  }
+  }}
 end
 
 def monopoly_with_fourth_tier
@@ -40,5 +40,5 @@ def monopoly_with_fourth_tier
     :b_and_o_railroad => {"mortgage_value" => "$400"},
     :shortline_railroad => {"mortgage_value" => "$800"}
     
-  }
+  }}
 end
